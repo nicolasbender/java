@@ -2,7 +2,7 @@ module github.com/paketo-buildpacks/java
 
 go 1.24.1
 
-toolchain go1.24.2
+toolchain go1.24.4
 
 require (
 	github.com/onsi/gomega v1.37.0

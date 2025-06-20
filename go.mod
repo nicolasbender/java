@@ -7,7 +7,7 @@ toolchain go1.24.2
 require (
 	github.com/onsi/gomega v1.37.0
 	github.com/paketo-buildpacks/occam v0.25.0
-	github.com/sclevine/spec v1.1.0
+	github.com/sclevine/spec v1.4.0
 	github.com/testcontainers/testcontainers-go v0.31.0
 )
 

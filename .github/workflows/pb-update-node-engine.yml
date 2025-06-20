@@ -83,7 +83,7 @@ jobs:
               env:
                 BP_DEPENDENCY: docker.io/paketo-buildpacks/node-engine
                 DEPENDENCY: docker.io/paketobuildpacks/node-engine
-            - uses: peter-evans/create-pull-request@v6
+            - uses: peter-evans/create-pull-request@v7
               with:
                 author: ${{ secrets.JAVA_GITHUB_USERNAME }} <${{ secrets.JAVA_GITHUB_USERNAME }}@users.noreply.github.com>
                 body: Bumps [`docker.io/paketobuildpacks/node-engine`](https://docker.io/paketobuildpacks/node-engine) from [`${{ steps.package.outputs.old-version }}`](https://docker.io/paketobuildpacks/node-engine:${{ steps.package.outputs.old-version }}) to [`${{ steps.package.outputs.new-version }}`](https://docker.io/paketobuildpacks/node-engine:${{ steps.package.outputs.new-version }}).

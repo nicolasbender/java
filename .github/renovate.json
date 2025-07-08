@@ -2,5 +2,8 @@
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
         "github>nicolasbender/renovate-config//renovate/renovate-tooling"
+    ],
+    "ignorePaths": [
+      ".github/workflows/**"
     ]
 }
